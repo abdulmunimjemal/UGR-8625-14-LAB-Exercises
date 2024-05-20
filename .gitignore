@@ -1,0 +1,108 @@
+# Gradle files
+.gradle/
+build/
+**/build/
+!**/src/**/build/
+**/local.properties
+**/out/
+captures/
+.externalNativeBuild/
+
+# IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# User-specific files
+*.log
+.idea/workspace.xml
+.idea/libraries
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# OS-specific files
+.DS_Store
+*.swp
+*.swo
+*.swn
+*.orig
+
+# Keystore files
+*.jks
+
+# Android Studio/IntelliJ
+*.apk
+*.ap_
+*.hprof
+*.orig
+*.so
+
+# Android local configuration files
+local.properties
+app/google-services.json
+app/*.keystore
+
+# Android Studio captures
+captures/
+
+# NDK
+obj/
+.intermediates/
+.ndk/
+
+# Dependency directories
+.idea/libraries/
+.cxx/
+.vscode/
+.libs/
+
+# Specific files in the project
+**/build/
+**/out/
+
+# Kotlin specific
+*.kts
+*.kt.swp
+*.kt.swo
+*.kts.swp
+*.kts.swo
+*.kt.swn
+
+# Gradle Wrapper
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.*
+gradle/wrapper/gradle-wrapper.jar
+
+# 3rd party plugin configuration files
+**/local.properties
+**/generated/
+
+# Android Studio navigation editor temp files
+.navigation/
+
+# Firebase crashlytics files
+crashlytics-build.properties
+
+# fastlane metadata
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Code coverage reports
+coverage/
+
+# Android profiler
+*.hprof
+
+# Google Services (JSON)
+**/google-services.json
+
+# Android builds
+build/
+**/build/
+out/
